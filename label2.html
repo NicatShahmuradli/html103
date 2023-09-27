@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <div class="name">
+          <label for="name">Name:</label>
+          <input
+            id="name"
+            name="name"
+            type="text"
+            maxlength="5"
+            placeholder="UNKNOWN_TYPE"
+            required
+          />
+        </div>
+
+        <div class="fav_number">
+          <label for="fav_number">Fav number:</label>
+          <input
+            id="fav_number"
+            name="fav_number"
+            type="number"
+            placeholder="UNKNOWN_TYPE"
+            min="7"
+            max="30"
+            required
+          />
+        </div>
+
+        <div class="email">
+          <label for="email">Email:</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="EMAIL_ADRESS"
+            required
+          />
+        </div>
+
+        <div class="confirm-password">
+          <label for="confirm-password">Password:</label>
+          <input
+            id="confirm-password"
+            name="confirm-password"
+            type="password"
+            placeholder="password"
+            required
+          />
+        </div>
+
+        <div class="gender">
+          <label for="male">Male</label> 
+          <input  id="male" name="gender" type="radio" checked />
+
+          <label for="female">Female</label>
+          <input id="female" name="gender" type="radio" required/>
+        </div>
+
+        <div class="country">
+          <label for="country">Country</label>
+          <select id="country" name="country" required>
+            <option value="azerbaijan">AZ</option>
+            <option value="turkish">TR</option>
+            <option value="russia">RUS</option>
+          </select>
+          
+        </div>
+
+        <div class="message-area">
+          <label for="message-area"></label>Message:<br />
+          <textarea
+            id="message-area"
+            name="message-area"
+            cols="30"
+            rows="10"
+            required
+          ></textarea>
+        </div>
+
+        <div class="subscribe">
+          <label for="subscribe">Subscribe to newsletter</label>
+          <input id="subscribe" name="subscribe" type="checkbox" required/>
+        </div>
+
+        <div class="upload-file">
+          <label for="upload-file">Upload File:</label>
+          <input
+            id="upload-file"
+            name="upload-file"
+            type="file"
+            placeholder="Choose File"
+            multiple
+            required
+          />
+        </div>
+
+        <div class="date">
+          <label for="date">Birthdate:</label>
+          <input id="date" name="date" type="date" placeholder="m/d/y" required/>
+        </div>
+
+        <div class="color">
+          <label for="color">Favorite Color:</label>
+          <input id="color" name="color" type="color" placeholder="m/d/y" required />
+        </div>
+
+        <div class="personal-website">
+          <label for="personal-website">Personal Website</label>
+          <input
+            id="personal-website"
+            name="personal-website"
+            type="url"
+            placeholder="UNKNOWN_TYPE"
+        
+            required
+          />
+        </div>
+
+        <div>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>

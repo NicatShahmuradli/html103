@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Travel reservatiton form</h1>
+    </header>
+
+    <main>
+      <section>
+        <div class="full-name">
+          <label for="full-name">Full Name*</label> <br />
+          <input
+            id="full-name"
+            name="full-name"
+            type="text"
+            placeholder="UNKNOWN_TYPE"
+          />
+        </div>
+
+        <div class="email">
+          <label for="email">Email address*</label><br />
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="EMAIL_ADRESS"
+          />
+        </div>
+
+        <div class="select-tour-package">
+          <label for="select-tour-package">Select tour package</label><br />
+          <select id="select-tour-package" name="select-tour-package">
+            <option value="azerbaijan">AZ</option>
+            <option value="turkish">TR</option>
+            <option value="russia">RUS</option>
+          </select>
+        </div>
+
+        <div class="arrival-date">
+          <label for="arrival-date">Arrival date*</label><br />
+          <input
+            id="arrival-date"
+            name="arrival-date"
+            type="date"
+            placeholder="m/d/y"
+          />
+        </div>
+
+        <div class="number-of-person">
+          <label for="number-of-person">Number of persons*</label><br />
+          <input
+            id="number-of-person"
+            name="number-of-person"
+            type="number"
+            placeholder="UNKNOWN_TYPE"
+          />
+        </div>
+
+        <div>
+          <span>What would you want to avail?*</span>
+        </div>
+
+        <div class="Boarding">
+          <label for="Boarding">Boarding</label>
+          <input id="Boarding" name="Boarding" type="checkbox" />
+        </div>
+
+        <div class="Fooding">
+          <label for="Fooding">Fooding</label>
+          <input id="Fooding" name="Fooding" type="checkbox" />
+        </div>
+
+        <div class="sight-seeing">
+          <label for="sight-seeing">Sight Seeing</label>
+          <input id="sight-seeing" name="sight-seeing" type="checkbox" />
+        </div>
+
+        <div class="discount-coupon-code">
+          <label for="discount-coupon-code">Discount coupon code:</label><br />
+          <input
+            id="discount-coupon-code"
+            name="discount-coupon-code"
+            type="number"
+            min="3"
+            max="10"
+          />
+        </div>
+
+        <div>
+          <span>Terms and conditions*</span>
+        </div>
+
+        <div class="choose">
+          <label for="agree">I agree</label>
+          <input id="agree" name="terms" type="radio" />
+
+          <label for="disagree">I disagree</label>
+          <input id="disagree" name="terms" type="radio" />
+        </div>
+
+        <div class="complete-reservation">
+            <button type="button">Complete reservation</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
